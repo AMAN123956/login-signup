@@ -1,7 +1,7 @@
 const express=require('express')
 const morgan=require('morgan')
 require('colors')
-require('dotenv').config({path:'dev.env'})
+require('dotenv').config({path:'../dev.env'})
 const connectDB =require('./db/db')
 const cors=require('cors')
 connectDB()
